@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Esternas</title>
+    <style>
+        /*
+        TIPOS DE FORMATOS
+        opentype (otf)
+        truetype (ttf)
+        embedded-opentype
+        truetype-aat (Apple advanced typography)
+        svg
+        https://www.dafont.com/pt/
+        */
+       @font-face {
+        font-family: 'love';
+        src:url('Minecrafter.Alt.ttf') format('truetype'),
+            url('Minecrafter.Reg.ttf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+           
+       }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'love','Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Denison rocha lopes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugiat facilis explicabo vero reiciendis voluptatum quidem commodi sed, porro soluta ducimus earum. Totam nostrum quia, quod consequuntur unde aliquam quas.</p>
+</body>
+</html>

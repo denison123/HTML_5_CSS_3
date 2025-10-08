@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        /*
+
+        SELETORES PERSONALIZADOS
+         #  = id
+         .  = class
+         :  = pseudo-class
+         :: = pseudo-element
+         >  = clildren
+         
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Retirar o sublinhado */
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /*quando o site ja foi visitado aparece a cor selecionada*/
+        a:visited{
+            color: darkred;
+        }
+        /*quando passar o mouse em cima fica com a cor selecionada*/
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        /*quando clicar fica da cor selecionada */
+        a:active{
+            color: aqua;
+        }
+        .especial{
+            background-color: rgb(255, 140, 140);
+        }
+
+        a::before{
+            content:'♣ ';
+        }
+        a::after{
+            content:'♣ ';
+        }
+    </style>
+        
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/denison123" target="_blank">Repositorio GitHub</a></li>
+        <li><a class="especial"href="https://www.youtube.com/watch?v=Wp1jaVuh7jw" target="_blank">canal YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com/#google_vignette" target="_blank">Site do CursoEmVideo</a></li>
+    </ul>
+</body>
+</html>

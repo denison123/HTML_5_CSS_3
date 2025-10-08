@@ -1,0 +1,15 @@
+aninhamento = ninhos
+
+height = altura
+width = largura
+bordar = linha que circuda o conteudo
+padding = acochoamento entreo conteudo e a bordar
+margin = da borda para fora
+autline = fora do elemento 
+box-level = sempre se inicia em uma linha nova ocupando a tela toda 
+<div></div> | <h1></h1> - <h6></h6> | <p></p> | <main></main> | <header></header>
+<nav></nav> | <article></article> | <aside></aside> | <footer></footer>
+<form></form> | <video></video>
+inline-level = inicia uma caixa para preencher o espaço vazio , nao quebra a linha <span></span> | <a></a> | <code></code> | <small></small> | <strong></strong>
+<em></em> | <sup></sup> | <sub></sub> | <label></label> | <button></button>
+<input> | <select></select>
